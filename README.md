@@ -30,6 +30,7 @@ http://localhost:8888/example/
 
 ### Usage
 ``` javascript
+import Button from 'reactui-button'
 const data = ['1','2','3']
 <Button text='default' type='default' list={data}></Button>
 <Button text='primary' type='primary' list={data}></Button>
